@@ -22,7 +22,7 @@ $zsv_blue_dark: darken($zsv_blue, 10%);
 
 // Grays
 // -------------------------
-$black: #1a1a1a !default;
+$black: #474E5D !default;
 $gray-darker: #4d4d4d !default;
 $gray-dark: #767676 !default;
 $gray: #999999 !default;
@@ -45,10 +45,10 @@ $purple-dark: #6a396f;
 $text-color: $black !default;
 $border-color: $gray-light !default;
 
-$page-background: $gray;
-$content-background: $gray;
-$footer-background: $gray;
-$body-background: $gray;
+$page-background: $gray-light;
+$content-background: $gray-lighter;
+$footer-background: $gray-lighter;
+$body-background: $gray-lighter;
 
 $focus-color: $zsv_blue;
 $shadow-color: darken($page-background, 10%);
@@ -56,7 +56,7 @@ $link-color: $zsv_blue !default;
 $link-hover-color: $zsv_blue_dark !default;
 
 $footer-color: $black;
-$footer-color-hover: $zsv_blue;
+$footer-color-hover: $black;
 
 $table-color-hover: lighten($zsv_blue, 45%);
 

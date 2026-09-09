@@ -12,7 +12,9 @@ application:
     de: Deutsch
 
   logo:
-    background_color: "#999999"
+    image: logo.svg
+    width: 250
+    height: 75
 
   # non UI languages for assigning to person#language
   # additional_languages:
