@@ -1,0 +1,198 @@
+#  Copyright (c) 2012-2026, Zentralverband Schweizer Volkstheater. This file is part of
+#  hitobito_zsv and licensed under the Affero General Public License version 3
+#  or later. See the COPYING file at the top-level directory or at
+#  https://github.com/hitobito/hitobito_zsv.
+
+
+de:
+  activerecord:
+    models:
+
+      ### GROUPS
+
+      group/zentralverband:
+        one: Zentralverband
+        other: Zentralverbände
+
+      group/zentralverband_vorstand:
+        one: Vorstand
+        other: Vorstände
+
+      group/zentralverband_gremium:
+        one: Gremium/Projektgruppe
+        other: Gremien/Projektgruppen
+
+      group/zentralverband_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+      group/regionalverband:
+        one: Regionalverband
+        other: Regionalverbände
+
+      group/regionalverband_gremium:
+        one: Gremium/Projektgruppe
+        other: Gremien/Projektgruppen
+
+      group/regionalverband_mitglieder:
+        one: Mitglieder
+        other: Mitglieder
+
+      group/regionalverband_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+      group/lokalgruppe:
+        one: Lokalgruppe
+        other: Lokalgruppen
+
+      group/lokalgruppe_gremium:
+        one: Gremium/Projektgruppe
+        other: Gremien/Projektgruppen
+
+      group/lokalgruppe_mitglieder:
+        one: Mitglieder
+        other: Mitglieder
+
+      group/lokalgruppe_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+
+      ### ROLES
+
+      group/zentralverband/administrator:
+        one: "Administrator:in"
+        other: "Administrator:innen"
+
+      group/zentralverband/mitarbeiter:
+        one: "Mitarbeiter:in"
+        other: "Mitarbeiter:innen"
+
+      group/zentralverband_vorstand/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/zentralverband_vorstand/vizepraesident:
+        one: "Vizepräsident:in"
+        other: "Vizepräsident:innen"
+
+      group/zentralverband_vorstand/kassier:
+        one: "Kassier:in"
+        other: "Kassier:innen"
+
+      group/zentralverband_vorstand/vorstandsmitglied:
+        one: Vorstandsmitglied
+        other: Vorstandsmitglieder
+
+      group/zentralverband_vorstand/delegierte:
+        one: Delegierte/-r
+        other: Delegierte
+
+      group/zentralverband_gremium/leitung:
+        one: Leitung
+        other: Leitungen
+
+      group/zentralverband_gremium/mitglied:
+        one: Mitglied
+        other: Mitglieder
+
+      group/zentralverband_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/regionalverband/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/regionalverband/vizepraesident:
+        one: "Vizepräsident:in"
+        other: "Vizepräsident:innen"
+
+      group/regionalverband/kassier:
+        one: "Kassier:in"
+        other: "Kassier:innen"
+
+      group/regionalverband/vorstandsmitglied:
+        one: Vorstandsmitglied
+        other: Vorstandsmitglieder
+
+      group/regionalverband/mitarbeiter:
+        one: "Mitarbeiter:in"
+        other: "Mitarbeiter:innen"
+
+      group/regionalverband_gremium/leitung:
+        one: Leitung
+        other: Leitungen
+
+      group/regionalverband_gremium/mitglied:
+        one: Mitglied
+        other: Mitglieder
+
+      group/regionalverband_mitglieder/aktivmitglied:
+        one: Aktivmitglied
+        other: Aktivmitglieder
+
+      group/regionalverband_mitglieder/passivmitglied:
+        one: Passivmitglied
+        other: Passivmitglieder
+
+      group/regionalverband_mitglieder/veteran:
+        one: "Veteran:in"
+        other: "Veteran:innen"
+
+      group/regionalverband_mitglieder/goenner:
+        one: "Gönner:in"
+        other: "Gönner:innen"
+
+      group/regionalverband_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/lokalgruppe/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/lokalgruppe/vizepraesident:
+        one: "Vizepräsident:in"
+        other: "Vizepräsident:innen"
+
+      group/lokalgruppe/kassier:
+        one: "Kassier:in"
+        other: "Kassier:innen"
+
+      group/lokalgruppe/vorstandsmitglied:
+        one: Vorstandsmitglied
+        other: Vorstandsmitglieder
+
+      group/lokalgruppe/mitarbeiter:
+        one: "Mitarbeiter:in"
+        other: "Mitarbeiter:innen"
+
+      group/lokalgruppe_gremium/leitung:
+        one: Leitung
+        other: Leitungen
+
+      group/lokalgruppe_gremium/mitglied:
+        one: Mitglied
+        other: Mitglieder
+
+      group/lokalgruppe_mitglieder/aktivmitglied:
+        one: Aktivmitglied
+        other: Aktivmitglieder
+
+      group/lokalgruppe_mitglieder/passivmitglied:
+        one: Passivmitglied
+        other: Passivmitglieder
+
+      group/lokalgruppe_mitglieder/veteran:
+        one: "Veteran:in"
+        other: "Veteran:innen"
+
+      group/lokalgruppe_mitglieder/goenner:
+        one: "Gönner:in"
+        other: "Gönner:innen"
+
+      group/lokalgruppe_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte

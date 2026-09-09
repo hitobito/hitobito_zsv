@@ -1,0 +1,62 @@
+#  Copyright (c) 2012-2026, Zentralverband Schweizer Volkstheater. This file is part of
+#  hitobito_zsv and licensed under the Affero General Public License version 3
+#  or later. See the COPYING file at the top-level directory or at
+#  https://github.com/hitobito/hitobito_zsv.
+
+root:
+  parent:
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:root)%>"
+  lft: 1
+  rgt: 12
+  name: Zentralverband Schweizer Volkstheater
+  type: Group::Zentralverband
+  email: lyndon@hitobito.example.com
+  street: Schellingstr.
+  housenumber: '8'
+  zip_code: '4692'
+  town: Charleenhagen
+vorstand:
+  parent: root
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:root)%>"
+  lft: 10
+  rgt: 11
+  name: Vorstand
+  type: Group::ZentralverbandVorstand
+  email: rupert_shanahan@hitobito.example.com
+  street: Lingenfeld
+  housenumber: 96b
+  zip_code: '3819'
+  town: Neu Marius
+kontakte_3:
+  parent: root
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:root)%>"
+  lft: 8
+  rgt: 9
+  name: Kontakte
+  type: Group::ZentralverbandKontakte
+  email: noma.grant@hitobito.example.com
+  street: Forellental
+  housenumber: 89b
+  zip_code: '8086'
+  town: Presslerhagen
+kantonalverband_aargauer_theater:
+  parent: root
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:kantonalverband_aargauer_theater)%>"
+  lft: 2
+  rgt: 7
+  name: Kantonalverband Aargauer Theater
+  type: Group::Regionalverband
+mitglieder:
+  parent: kantonalverband_aargauer_theater
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:kantonalverband_aargauer_theater)%>"
+  lft: 5
+  rgt: 6
+  name: Mitglieder
+  type: Group::RegionalverbandMitglieder
+kontakte_6:
+  parent: kantonalverband_aargauer_theater
+  layer_group_id: "<%=ActiveRecord::FixtureSet.identify(:kantonalverband_aargauer_theater)%>"
+  lft: 3
+  rgt: 4
+  name: Kontakte
+  type: Group::RegionalverbandKontakte
